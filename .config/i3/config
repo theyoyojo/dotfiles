@@ -285,6 +285,7 @@ exec --no-startup-id "bash ~/.config/polybar/i3wmthemer_bar_launch.sh"
 # Launch xflux in background
 exec --no-startup-id redshift
 
+# Make specific windows float for some projects
 for_window[class="SFML works!"] floating enable
 for_window[class="SFML-demo"] floating enable
 for_window[class="SFML-ps1"] floating enable
